@@ -52,9 +52,9 @@
         font-size: 0;
         // margin-left: 200px;
         // margin-top:50px;
-        perspective-origin: right;
         transition: .2s;
-        transform: perspective(1500px) rotateY(10deg);
+        // perspective-origin: right;
+        // transform: perspective(1500px) rotateY(10deg);
         .lists{
             display: inline-block;
             height: 100%;

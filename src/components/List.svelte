@@ -79,9 +79,11 @@
         line-height: 20px;
         transition: .2s;
 
-        &:hover {
-            transform: perspective(1500px) rotateY(-10deg) scaleX(1.05);
-        }
+        // &:hover {
+        //     transform-origin: top;
+        //     transform: scale(1.02);
+        //     // transform: perspective(1500px) rotateY(-10deg) scaleX(1.05);
+        // }
 
         :global(&.sortable-ghost) {
             opacity: 0.2;
